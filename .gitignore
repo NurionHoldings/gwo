@@ -13,6 +13,8 @@ venv/
 .env
 .env.*
 .netlify/
+node_modules/
+dist/
 
 # 에디터
 .idea/

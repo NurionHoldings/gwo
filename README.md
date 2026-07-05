@@ -22,7 +22,28 @@
 - CEO 및 연락처 반영
 
 ## 실행 (로컬)
-`index.html` 파일을 브라우저로 열거나 Live Server로 열면 됩니다.
+
+- **소스 그대로:** `index.html`을 브라우저로 열거나 Live Server 사용
+- **배포와 동일한 산출물:** `npm install` 후 `npm run build` → `dist/` 폴더 확인
+
+## 빌드 (미니파이 · 난독화)
+
+Netlify 배포 시 자동 실행됩니다. 로컬에서도 동일하게 빌드할 수 있습니다.
+
+| 패키지 | 역할 |
+|--------|------|
+| `terser` | JavaScript 미니파이 |
+| `javascript-obfuscator` | JavaScript 난독화 (`i18n.js`, HTML 인라인 스크립트) |
+| `clean-css` | CSS 미니파이 |
+| `html-minifier-terser` | HTML 미니파이 |
+
+```bash
+npm install
+npm run build   # dist/ 생성 (Netlify publish 대상)
+```
+
+- 소스(`*.html`, `assets/*`)는 저장소에 유지하고, **배포는 `dist/`만** 사용합니다.
+- `window.GWO_I18N` 등 공개 API는 난독화 시 보존됩니다.
 
 ## GitHub → Netlify 배포
 
@@ -48,9 +69,9 @@ git push -u origin main
 
 1. [Netlify](https://app.netlify.com) → **Add new site** → **Import an existing project**
 2. **GitHub** 저장소 선택
-3. 빌드 설정 (`netlify.toml`이 자동 적용됨)
-   - **Build command:** *(비움)*
-   - **Publish directory:** `.`
+3. 빌드 설정 (`netlify.toml` 자동 적용됨)
+   - **Build command:** `npm ci && npm run build`
+   - **Publish directory:** `dist`
 4. **Deploy site**
 
 ### 3. 커스텀 도메인

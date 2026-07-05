@@ -1,0 +1,17 @@
+{
+  "name": "gwo-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Global Workforce Operations static site",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "prebuild": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "fast-glob": "^3.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "javascript-obfuscator": "^4.1.1",
+    "terser": "^5.39.0"
+  }
+}
