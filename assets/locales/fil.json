@@ -1,0 +1,322 @@
+{
+  "common": {
+    "nav": {
+      "mandate": "Mga Inilaang Gawain",
+      "education": "Ko-edukasyon",
+      "support": "Pag-aangkop at Karapatan",
+      "dashboard": "Dashboard ng Operasyon",
+      "report": "Ulat sa Patakaran",
+      "inquiry": "Pagtatanong sa Pakikipagtulungan",
+      "menuOpen": "Buksan ang menu",
+      "menuClose": "Isara ang menu",
+      "home": "Home",
+      "supportWorker": "Konsultasyon at suporta",
+      "educationWorker": "Multilingual na training"
+    },
+    "learnMore": "Alamin pa →",
+    "backHome": "← Bumalik sa home",
+    "backMandate": "← Bumalik sa inilaang gawain",
+    "backCycle": "← Bumalik sa paglalakbay ng manggagawa",
+    "backEducation": "← Bumalik sa ko-edukasyon",
+    "footer": {
+      "platform": "Platform",
+      "contact": "Contact",
+      "copyright": "© 2026 Global Workforce Operations. Lahat ng karapatan ay nakalaan.",
+      "tagline": "Pinagsamang plataporma ng operasyon ng dayuhang manggagawa na inilaan ng munisipyo",
+      "taglineDetail": "Ko-edukasyon pagkatapos ng pagdating · Pagsusuri sa pag-aangkop at kaligtasan · Suporta sa paglipat ng trabaho · Ulat sa patakaran",
+      "linkMandate": "Inilaang gawain ng munisipyo",
+      "linkEducation": "Ko-edukasyon",
+      "linkSupport": "Suporta sa pag-aangkop at karapatan",
+      "linkDashboard": "Dashboard ng operasyon",
+      "linkReport": "Ulat sa patakaran"
+    },
+    "buttons": {
+      "municipalityInquiry": "Pagtatanong sa pakikipagtulungan ng munisipyo",
+      "viewMandate": "Tingnan ang inilaang gawain",
+      "cooperationConsult": "Kumonsulta sa istruktura ng pakikipagtulungan",
+      "backToTop": "Bumalik sa simula",
+      "viewReport": "Tingnan ang istruktura ng ulat",
+      "viewLegal": "Tingnan ang daloy ng AI legal support"
+    },
+    "modal": {
+      "close": "Isara",
+      "inquiry": {
+        "title": "Pagtatanong sa pakikipagtulungan",
+        "desc": "Ilagay ang layunin ng pagpapakilala at kapaligiran ng operasyon. Ito ay demo form para suriin ang daloy ng panukala."
+      },
+      "municipality": {
+        "title": "Pagtatanong sa pakikipagtulungan ng munisipyo",
+        "desc": "Batay sa industriya, kalagayan ng workforce, at umiiral na operasyon sa rehiyon, bubuuin ang delegated model para sa ko-edukasyon, pagsusuri sa pag-aangkop at kaligtasan, at suporta sa pagbabago."
+      },
+      "legal": {
+        "title": "Daloy ng AI legal support",
+        "desc": "Input sa katutubong wika ng manggagawa → pag-aayos ng sitwasyon → gabay sa dokumento at proseso → beripikasyon ng operations center → eksperto kung kinakailangan."
+      },
+      "report": {
+        "title": "Istruktura ng ulat sa patakaran",
+        "desc": "Screen para i-configure kung aling mga indicator ang kokolektahin lingguhan, buwanan, at quarterly, at aling impormasyon ang ibibigay bilang de-identified summary."
+      }
+    },
+    "form": {
+      "org": "Pangalan ng organisasyon/kumpanya",
+      "name": "Pangalan ng contact",
+      "type": "Uri ng pagtatanong",
+      "message": "Nilalaman ng mensahe",
+      "submit": "Kumpirmahin ang mensahe",
+      "note": "Ang form na ito ay demo. Sa aktwal na operasyon, ilapat ang hiwalay na privacy policy, pahintulot, at access control.",
+      "submitNote": "Nakumpirma ang input. Sa aktwal na integrasyon, ikokonekta sa email ng responsable o CRM intake flow.",
+      "orgPlaceholder": "Pangalan ng organisasyon o kumpanya",
+      "namePlaceholder": "Pangalan ng contact person",
+      "messagePlaceholder": "Ilagay ang rehiyon, industriya, target na sukat, at prayoridad na isusulong.",
+      "typeMunicipality": "Konsultasyon sa delegated operations ng munisipyo",
+      "typeCompany": "Konsultasyon sa pagpapakilala ng kumpanya",
+      "typeEducation": "Konsultasyon sa programang ko-edukasyon",
+      "typeReport": "Konsultasyon sa pag-setup ng ulat at dashboard"
+    },
+    "lang": {
+      "sectionTitle": "Wika",
+      "switcherLabel": "Pumili ng wika"
+    }
+  },
+  "index": {
+    "meta": {
+      "title": "Global Workforce Operations",
+      "description": "Template ng pinagsamang plataporma ng operasyon ng dayuhang manggagawa na inilaan ng munisipyo"
+    },
+    "hero": {
+      "eyebrow": "GLOBAL WORKFORCE OPERATIONS",
+      "title": "Mula pagdating hanggang<br><strong>matatag na pag-aangkop</strong>,<br>sama-sama nating pinamamahalaan.",
+      "copy": "Template ng plataporma na nag-uugnay ng patakaran ng munisipyo at site ng kumpanya upang pamahalaan ang ko-edukasyon, pagsusuri sa pag-aangkop at kaligtasan, at suporta sa paglipat ng trabaho sa isang operating system.",
+      "btnMunicipality": "Pagtatanong sa pakikipagtulungan ng munisipyo",
+      "btnMandate": "Tingnan ang inilaang gawain",
+      "note": "※ Ang screen na ito ay template para sa pagpapakilala at panukala ng Global Workforce Operations."
+    },
+    "stats": {
+      "education": {
+        "title": "Ko-edukasyon pagkatapos ng pagdating",
+        "desc": "Edukasyon sa pag-aangkop sa site na sinisimulan ng kumpanya at manggagawa",
+        "more": "Alamin pa →"
+      },
+      "safety": {
+        "title": "Pagsusuri sa kalagayan ng pag-aangkop at kaligtasan",
+        "desc": "Pagsusuri na nakatuon sa maagang pagtuklas at suporta, hindi surveillance",
+        "more": "Alamin pa →"
+      },
+      "transfer": {
+        "title": "Suporta sa paglipat at pagbabago",
+        "desc": "Pamamahala ng daloy mula konsultasyon, deadline, dokumento hanggang re-adaptation check",
+        "more": "Alamin pa →"
+      },
+      "report": {
+        "title": "Ulat sa patakaran ng munisipyo",
+        "desc": "Gawing de-identified indicators at operational outcomes ang field data",
+        "more": "Alamin pa →"
+      }
+    },
+    "mandate": {
+      "kicker": "MUNICIPALITY DELEGATED OPERATIONS",
+      "title": "Gawing gumana sa field ang pangunahing gawain<br>na inilaan ng munisipyo.",
+      "copy": "Ang Global Workforce Operations ay hindi recruitment—propesyonal na operating model na sumusuporta sa pag-aangkop, kaligtasan, at pagbabago pagkatapos ng pagdating at nag-uulat ng resulta.",
+      "card1": {
+        "title": "Ko-edukasyon pagkatapos ng pagdating<br>kasama ang employer",
+        "copy": "Ang manggagawa ay tumatanggap ng multilingual na buhay, kaligtasan, labor basics, at job manual; ang kumpanya ay tumatanggap ng suporta sa pag-aangkop, multilingual na tagubilin, at safety standards."
+      },
+      "card2": {
+        "title": "Pagsusuri sa pag-aangkop at kaligtasan<br>at maagang suporta",
+        "copy": "Tukuyin ang maagang risk signals tulad ng hindi natapos na training, hirap sa trabaho/buhay, safety concerns, at conflict; unawain sa wika ng manggagawa at ikonekta sa suporta at follow-up."
+      },
+      "card3": {
+        "title": "Suporta sa paglipat ng trabaho<br>at pagbabago ng worksite",
+        "copy": "Mula sa konsultasyon ng intensyon ng pagbabago hanggang gabay sa proseso, deadline, dokumento, koordinasyon sa kumpanya, at 30·60·90 araw na re-adaptation check—nire-record at pinamamahalaan ang buong daloy."
+      }
+    },
+    "cycle": {
+      "kicker": "WORKER JOURNEY",
+      "title": "Hindi isang beses na intake—<br>pamamahalaan ang buong paglalakbay ng pag-aangkop.",
+      "copy": "Daloy na hindi pinapansin ang maagang pagkabalisa at problema sa pag-aangkop, at muling nag-uugnay sa matatag na kapaligiran kapag kailangan ang pagbabago.",
+      "step1": {
+        "title": "Pagdating at placement sa kumpanya",
+        "copy": "Irehistro ang basic profile, wika, industriya, kumpanya, at rehiyon, at itakda ang unang operating path."
+      },
+      "step2": {
+        "title": "Ko-edukasyon at manual",
+        "copy": "Kinukumpirma ng manggagawa at kumpanya ang kanilang papel at on-site standards, at sine-save ang completion history."
+      },
+      "step3": {
+        "title": "7·30·90 araw na adaptation check",
+        "copy": "Suriin ang kalagayan ng pag-aangkop, kaligtasan, pamumuhay, at komunikasyon at maagang ikonekta ang suporta."
+      },
+      "step4": {
+        "title": "Suporta sa pagbabago at muling pag-aangkop",
+        "copy": "Kapag kailangan ang paglipat ng trabaho o worksite, gabayan ang proseso at muling suriin ang pag-aangkop pagkatapos."
+      }
+    },
+    "education": {
+      "kicker": "MULTILINGUAL CO-EDUCATION",
+      "title": "Ihahatid ang industry-specific on-site manual<br>sa wika ng manggagawa.",
+      "copy": "Higit sa translated documents—dinisenyo ang multilingual training gamit ang images, diagrams, audio, short video, at comprehension checks para sa aktwal na paggamit sa site.",
+      "feature1": {
+        "title": "Multilingual manual para sa manggagawa",
+        "copy": "Bago, habang, at pagkatapos ng trabaho; protective equipment; aksyon sa aksidente; help request paths"
+      },
+      "feature2": {
+        "title": "Ko-edukasyon para sa contact ng kumpanya",
+        "copy": "Paunang suporta sa pag-aangkop, work instructions, conflict prevention, on-site safety standards"
+      },
+      "feature3": {
+        "title": "Pamamahala ng completion at re-training",
+        "copy": "Comprehension checks, alert sa hindi natapos, re-training classification, integration sa ulat ng munisipyo"
+      },
+      "langSupport": {
+        "title": "Suporta sa 8 wika ng manggagawa: Sinhala, English, Chinese, Filipino, Thai, Urdu, Uzbek, Kyrgyz",
+        "languages": "Sinhala · English · Chinese · Filipino · Thai · Urdu · Uzbek · Kyrgyz"
+      }
+    },
+    "support": {
+      "kicker": "ADAPTATION & RIGHTS SUPPORT",
+      "title": "Bago ang abnormal signs,<br>tuklasin ang hirap sa pag-aangkop.",
+      "copy": "Hindi simpleng attrition risk ang mga hirap ng manggagawa—tukuyin ang sanhi sa trabaho, kaligtasan, pamumuhay, at komunikasyon at ikonekta sa suporta."
+    },
+    "dashboard": {
+      "kicker": "ROLE-BASED OPERATIONS",
+      "title": "Parehong field data,<br>tingnan sa screen na angkop sa role.",
+      "copy": "Ang kumpanya ay nakakakuha ng prevention at compliance; ang munisipyo ay policy indicators at operational outcomes; ang operations center ay case management at follow-up flows.",
+      "tabMunicipality": "Munisipyo",
+      "tabCompany": "Kumpanya",
+      "tabOperations": "Operations center",
+      "municipality": {
+        "title": "Katayuan ng operasyon ng dayuhang workforce sa rehiyon",
+        "subtitle": "Sample screen · de-identified indicators focus"
+      },
+      "company": {
+        "title": "Pamamahala ng dayuhang manggagawa ng aming kumpanya",
+        "subtitle": "Sample screen · para sa contact ng kumpanya"
+      },
+      "operations": {
+        "title": "Pinagsamang katayuan ng operations center",
+        "subtitle": "Sample screen · case management at reporting focus"
+      }
+    },
+    "report": {
+      "kicker": "REPORTING & GOVERNANCE",
+      "title": "Gawing materyales sa desisyon ng patakaran<br>ang field data.",
+      "copy": "Ang reporting ay hindi para kontrolin ang indibidwal na manggagawa—dapat tukuyin ang improvement points sa edukasyon, pag-aangkop, kaligtasan, at pagbabago. Default ay de-identified summaries.",
+      "point1": {
+        "title": "Lingguhang ulat sa operasyon",
+        "copy": "Bagong pagdating at placement, hindi natapos na training, urgent support at follow-up check status"
+      },
+      "point2": {
+        "title": "Buwanang ulat sa pamamahala",
+        "copy": "Co-education, adaptation checks, company management, at change task outcomes at action rates"
+      },
+      "point3": {
+        "title": "Quarterly na ulat sa patakaran",
+        "copy": "Regional demand, industry-specific issues, operational outcomes, next-quarter improvement proposals"
+      },
+      "mail": {
+        "title": "July 2026 monthly report sa integrated management ng dayuhang workforce",
+        "status": "Handa nang ipadala",
+        "action": "Tingnan ang istruktura ng ulat"
+      }
+    },
+    "cta": {
+      "kicker": "NEXT STEP",
+      "title": "Simulan ang operating system kung saan ligtas na umaangkop ang dayuhang manggagawa<br>at sabay na lumalago ang kumpanya at rehiyon.",
+      "copy": "Iniuugnay ng Global Workforce Operations ang ko-edukasyon, suporta sa pag-aangkop, pagbabago, at policy reporting sa isang screen at operating process batay sa tunay na daloy ng delegated tasks.",
+      "btnConsult": "Kumonsulta sa istruktura ng pakikipagtulungan",
+      "btnTop": "Bumalik sa simula"
+    },
+    "footer": {
+      "tagline": "Pinagsamang plataporma ng operasyon ng dayuhang manggagawa na inilaan ng munisipyo",
+      "taglineDetail": "Ko-edukasyon pagkatapos ng pagdating · Pagsusuri sa pag-aangkop at kaligtasan · Suporta sa paglipat · Ulat sa patakaran"
+    },
+    "worker": {
+      "card": {
+        "title": "Integrated na card ng manggagawa",
+        "subtitle": "Indibidwal na edukasyon · konsultasyon · pagsusuri · kasaysayan ng pagbabago",
+        "status": "Sinusuri ang pag-aangkop"
+      },
+      "timeline1": {
+        "title": "Tapos na ang ko-edukasyon pagkatapos ng pagdating",
+        "desc": "Nakumpirma ang pagtatapos ng training ng manggagawa"
+      },
+      "timeline2": {
+        "title": "Pagsusuri sa pag-aangkop sa buhay at trabaho",
+        "desc": "Suriin ang tirahan, transportasyon, komunikasyon sa site"
+      },
+      "timeline3": {
+        "title": "Follow-up pagkatapos ng kahilingan sa konsultasyon",
+        "desc": "Naitala ang suporta at susunod na petsa ng pagsusuri"
+      },
+      "legal": {
+        "kicker": "AI Legal Buddy link module",
+        "title": "Kapag may problema,<br>una itong aayusin sa iyong wika.",
+        "copy": "Hindi tumutukoy ang AI Legal Buddy ng legal na resulta—aayusin ang sitwasyon, gabayan ang mga dokumento at hakbang, at ikonekta sa operations center.",
+        "item1": "Problema sa sahod at kontrata",
+        "item2": "Kaligtasan, aksidente, kapaligiran sa trabaho",
+        "item3": "Pamamalagi at pagbabago ng dokumento",
+        "btn": "Tingnan ang daloy ng AI Legal Buddy"
+      },
+      "analysis": {
+        "title": "Gabay sa indibidwal na konsultasyon at pagsusuri",
+        "step1": "① Itala ang sitwasyon, sintomas, at kahilingan sa iyong wika.",
+        "step2": "② Uriin ang risk signals (kaligtasan, pamumuhay, komunikasyon) at unahin.",
+        "step3": "③ Gabayan ang suporta, konsultasyon, follow-up at ipaalam ang susunod na iskedyul."
+      },
+      "phone": {
+        "title": "Tingnan ang gabay sa site<br>para ngayon",
+        "job": "Manufacturing · Araw 28",
+        "status": "Normal",
+        "row1": "Manual ng kaligtasan bago magtrabaho",
+        "row2": "Tapos na ang ko-edukasyon",
+        "row3": "Hiling ng tulong / AI Legal Buddy",
+        "badge1": "Tingnan",
+        "badge2": "Tapos",
+        "badge3": "Buksan"
+      },
+      "app": {
+        "title": "Manufacturing · Press<br>Gabay sa kaligtasan ngayon",
+        "taskTitle": "Checklist bago magsimula",
+        "taskDesc": "Magsuot muna ng protective gear at suriin ang panganib sa makina.",
+        "check1": "Paano magsuot ng protective gear",
+        "check2": "Suriin ang mapanganib na kilos",
+        "check3": "Paano tawagan ang supervisor kapag may aksidente",
+        "cta": "Kumpirmahin ang pag-unawa at i-save"
+      },
+      "ops": {
+        "metric1": {
+          "label": "Bagong konsultasyon",
+          "em": "Kailangan ng assignment"
+        },
+        "metric2": {
+          "label": "Naka-iskedyul na follow-up",
+          "em": "Batay sa 7·30·90 araw"
+        },
+        "metric3": {
+          "label": "Expert referral ongoing",
+          "em": "Sinusuri ng operator"
+        },
+        "metric4": {
+          "label": "Naghihintay ng pagsusuri",
+          "em": "Indibidwal na konsultasyon"
+        },
+        "flowTitle": "Daloy ng indibidwal na konsultasyon",
+        "flow1": "Intake · rekord sa sariling wika",
+        "flow2": "Pagsusuri · pag-uuri ng risk",
+        "flow3": "Suporta · direktiba sa follow-up",
+        "priorityTitle": "Prayoridad na konsultasyon ngayon",
+        "priority1": "Urgenteng konsultasyon sa kaligtasan",
+        "priority2": "Pagsusuri sa hirap sa buhay at komunikasyon",
+        "priority3": "Konsultasyon sa pamamalagi at pagbabago"
+      }
+    }
+  },
+  "pages": {
+    "detailBack": "← Bumalik",
+    "learnMore": "Alamin pa",
+    "backHome": "← Bumalik sa home",
+    "backMandate": "← Bumalik sa inilaang gawain",
+    "backCycle": "← Bumalik sa paglalakbay ng manggagawa",
+    "backEducation": "← Bumalik sa ko-edukasyon"
+  }
+}

@@ -1,0 +1,161 @@
+/* GWO 로고 */
+.live-logo {
+  --size: 96px;
+  position: relative;
+  width: var(--size);
+  height: var(--size);
+  flex-shrink: 0;
+}
+
+.live-logo--header {
+  --size: 56px;
+}
+
+.brand-text {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  gap: 0.32em;
+  line-height: 1.05;
+  white-space: nowrap;
+}
+
+.brand-text__word {
+  display: inline-block;
+  font-weight: 900;
+  letter-spacing: -.04em;
+  background: linear-gradient(
+    90deg,
+    #e40303,
+    #ff8c00,
+    #ffed00,
+    #008026,
+    #24408e,
+    #750787,
+    #e40303
+  );
+  background-size: 300% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation:
+    brand-word-float 4.2s ease-in-out infinite,
+    rainbow-flow 4s linear infinite;
+}
+
+.brand-text__word--global {
+  animation-delay: 0s, 0s;
+}
+
+.brand-text__word--workforce {
+  animation-delay: .2s, 1.3s;
+}
+
+.brand-text__word--ops {
+  animation-delay: .4s, 2.6s;
+}
+
+.live-logo img {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 80%;
+  height: 80%;
+  margin: 10% auto 0;
+  object-fit: contain;
+  animation: logo-float 4s ease-in-out infinite;
+}
+
+.live-logo::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: #f47920;
+  border-bottom-color: #708da9;
+  animation: logo-spin 10s linear infinite;
+}
+
+.live-logo::after {
+  content: "";
+  position: absolute;
+  inset: 14%;
+  border-radius: 50%;
+  border: 1px dashed rgba(0, 51, 102, .22);
+  animation: logo-spin 15s linear infinite reverse;
+}
+
+.footer-logo {
+  display: block;
+  height: 36px;
+  width: auto;
+  max-width: 240px;
+  object-fit: contain;
+  filter: brightness(1.1);
+}
+
+.brand-text--footer {
+  flex-wrap: wrap;
+  gap: 0.28em 0.42em;
+  font-size: clamp(1.15rem, 2.2vw, 1.42rem);
+}
+
+.brand-text--footer-sm {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.24em 0.36em;
+  font-size: 1rem;
+}
+
+.brand-text--footer-inline {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.2em 0.32em;
+  font-size: inherit;
+  vertical-align: baseline;
+}
+
+.brand-text--footer .brand-text__word,
+.brand-text--footer-sm .brand-text__word,
+.brand-text--footer-inline .brand-text__word {
+  text-shadow: 0 0 18px rgba(255, 140, 0, .22);
+}
+
+@keyframes logo-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes logo-spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes brand-word-float {
+  0%, 100% { transform: translateY(0); opacity: 1; }
+  50% { transform: translateY(-2px); opacity: .92; }
+}
+
+@keyframes rainbow-flow {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+@media (max-width: 820px) {
+  .live-logo--header { --size: 46px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .live-logo img,
+  .live-logo::before,
+  .live-logo::after,
+  .brand-text__word,
+  .brand-text--footer .brand-text__word,
+  .brand-text--footer-sm .brand-text__word,
+  .brand-text--footer-inline .brand-text__word {
+    animation: none !important;
+    color: var(--ink, #172033);
+    background: none;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+  }
+}

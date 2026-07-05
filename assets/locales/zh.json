@@ -1,0 +1,322 @@
+{
+  "common": {
+    "nav": {
+      "mandate": "委托业务",
+      "education": "协同教育",
+      "support": "适应与权益",
+      "dashboard": "运营仪表板",
+      "report": "政策报告",
+      "inquiry": "合作咨询",
+      "menuOpen": "打开菜单",
+      "menuClose": "关闭菜单",
+      "home": "首页",
+      "supportWorker": "咨询·支持",
+      "educationWorker": "多语言教育"
+    },
+    "learnMore": "了解更多 →",
+    "backHome": "← 返回首页",
+    "backMandate": "← 返回委托业务",
+    "backCycle": "← 返回劳动者旅程",
+    "backEducation": "← 返回协同教育",
+    "footer": {
+      "platform": "平台",
+      "contact": "联系方式",
+      "copyright": "© 2026 Global Workforce Operations. 保留所有权利。",
+      "tagline": "地方政府委托型海外劳动力综合运营平台",
+      "taglineDetail": "入境后协同教育 · 适应与安全检查 · 转职与工作地点变更支持 · 政策报告",
+      "linkMandate": "地方政府委托业务",
+      "linkEducation": "协同教育",
+      "linkSupport": "适应与权益支持",
+      "linkDashboard": "运营仪表板",
+      "linkReport": "政策报告"
+    },
+    "buttons": {
+      "municipalityInquiry": "地方政府合作咨询",
+      "viewMandate": "查看委托业务",
+      "cooperationConsult": "咨询合作结构",
+      "backToTop": "返回顶部",
+      "viewReport": "查看报告结构",
+      "viewLegal": "查看AI法务联动流程"
+    },
+    "modal": {
+      "close": "关闭",
+      "inquiry": {
+        "title": "合作咨询",
+        "desc": "请留下引入目的和运营环境。这是为审查提案流程而配置的演示表单。"
+      },
+      "municipality": {
+        "title": "地方政府合作咨询",
+        "desc": "根据地区产业、劳动力现状和现有运营体系，配置入境后协同教育、适应与安全检查及变更业务支持的委托模式。"
+      },
+      "legal": {
+        "title": "AI法务联动流程",
+        "desc": "劳动者母语输入 → 情况整理 → 资料与流程指引 → 运营中心确认 → 必要时连接专家。"
+      },
+      "report": {
+        "title": "政策报告结构",
+        "desc": "用于配置按周、月、季度收集哪些指标，以及哪些信息以去标识化摘要提供的界面。"
+      }
+    },
+    "form": {
+      "org": "机构/企业名称",
+      "name": "负责人姓名",
+      "type": "咨询类型",
+      "message": "咨询内容",
+      "submit": "确认咨询内容",
+      "note": "此模板表单为演示用途。实际运营时需另行适用隐私政策、同意及访问权限体系。",
+      "submitNote": "输入内容已确认。实际对接时将连接至负责人邮箱或CRM受理流程。",
+      "orgPlaceholder": "机构或企业名称",
+      "namePlaceholder": "负责人姓名",
+      "messagePlaceholder": "请填写引入地区、行业、目标规模及优先解决的问题。",
+      "typeMunicipality": "地方政府委托运营咨询",
+      "typeCompany": "企业引入咨询",
+      "typeEducation": "协同教育项目咨询",
+      "typeReport": "报告与仪表板构建咨询"
+    },
+    "lang": {
+      "sectionTitle": "语言",
+      "switcherLabel": "选择语言"
+    }
+  },
+  "index": {
+    "meta": {
+      "title": "Global Workforce Operations",
+      "description": "地方政府委托型海外劳动力综合运营平台模板"
+    },
+    "hero": {
+      "eyebrow": "GLOBAL WORKFORCE OPERATIONS",
+      "title": "从入境之后到<br><strong>稳定定居</strong>，<br>我们共同管理。",
+      "copy": "连接地方政府政策与企业现场，将海外劳动者的协同教育、适应与安全检查、转职与工作地点变更支持纳入同一运营体系的平台模板。",
+      "btnMunicipality": "地方政府合作咨询",
+      "btnMandate": "查看委托业务",
+      "note": "※ 本页面为 Global Workforce Operations 的介绍与提案模板。"
+    },
+    "stats": {
+      "education": {
+        "title": "入境后协同教育",
+        "desc": "企业与劳动者共同开始的现场适应教育",
+        "more": "了解更多 →"
+      },
+      "safety": {
+        "title": "适应与安全状态检查",
+        "desc": "以早期发现和支持衔接为中心的检查，而非监视",
+        "more": "了解更多 →"
+      },
+      "transfer": {
+        "title": "转职与变更支持",
+        "desc": "从咨询、期限、文件到再适应确认的流程管理",
+        "more": "了解更多 →"
+      },
+      "report": {
+        "title": "地方政府政策报告",
+        "desc": "将现场转化为去标识化指标和运营成果",
+        "more": "了解更多 →"
+      }
+    },
+    "mandate": {
+      "kicker": "MUNICIPALITY DELEGATED OPERATIONS",
+      "title": "让地方政府委托的核心业务<br>在现场真正运转。",
+      "copy": "Global Workforce Operations 并非人力介绍，而是系统支持入境后的适应、安全与变更业务并报告运营成果的专业运营模式。",
+      "card1": {
+        "title": "入境后<br>聘用企业协同教育",
+        "copy": "为劳动者提供多语言生活、安全、劳动基础与岗位手册；为企业负责人提供初期适应支持、多语言作业指示与现场安全管理标准。"
+      },
+      "card2": {
+        "title": "适应与安全状态检查<br>及早期支持",
+        "copy": "确认教育未完成、工作与生活困难、安全顾虑、冲突等早期风险信号，以劳动者语言了解原因，并衔接支持、咨询与后续检查。"
+      },
+      "card3": {
+        "title": "转职与工作地点变更<br>业务支持",
+        "copy": "从变更意向咨询到流程、期限、文件指引、企业协商，以及变更后30·60·90天再适应检查，全程记录并管理。"
+      }
+    },
+    "cycle": {
+      "kicker": "WORKER JOURNEY",
+      "title": "不是一次性受理，<br>而是管理整个定居过程。",
+      "copy": "不忽视入境初期的不安与现场适应问题，在需要变化时再次连接到稳定环境的流程。",
+      "step1": {
+        "title": "入境与企业安置",
+        "copy": "登记基本档案、语言、行业、企业与地区信息，并设定初期运营路径。"
+      },
+      "step2": {
+        "title": "协同教育与手册",
+        "copy": "劳动者与企业负责人分别确认各自角色与现场标准，并保存完成记录。"
+      },
+      "step3": {
+        "title": "7·30·90天适应检查",
+        "copy": "确认适应、安全、生活与沟通状态，并及早衔接所需支持。"
+      },
+      "step4": {
+        "title": "变更与再定居支持",
+        "copy": "需要转职或变更工作地点时，指引流程并在变更后再次确认适应情况。"
+      }
+    },
+    "education": {
+      "kicker": "MULTILINGUAL CO-EDUCATION",
+      "title": "按行业将现场手册<br>以劳动者语言传达。",
+      "copy": "不仅提供翻译文件，还通过图像、图示、语音、短视频与理解确认，设计可在现场实际使用的多语言教育体验。",
+      "feature1": {
+        "title": "劳动者多语言手册",
+        "copy": "作业前·中·后，防护装备，事故时行动，求助路径"
+      },
+      "feature2": {
+        "title": "企业负责人协同教育",
+        "copy": "初期适应支持，作业指示，冲突预防，现场安全管理标准"
+      },
+      "feature3": {
+        "title": "教育完成与再教育管理",
+        "copy": "理解确认，未完成提醒，再教育对象分类，纳入地方政府报告"
+      },
+      "langSupport": {
+        "title": "支持8种劳动者语言：僧伽罗语、英语、中文、菲律宾语、泰语、乌尔都语、乌兹别克语、吉尔吉斯语",
+        "languages": "僧伽罗语 · 英语 · 中文 · 菲律宾语 · 泰语 · 乌尔都语 · 乌兹别克语 · 吉尔吉斯语"
+      }
+    },
+    "support": {
+      "kicker": "ADAPTATION & RIGHTS SUPPORT",
+      "title": "在异常征兆之前，<br>先发现适应困难。",
+      "copy": "不把海外劳动者的困难简单归类为流失风险，而是确认工作、安全、生活与沟通方面的原因并连接到可支持的路径。"
+    },
+    "dashboard": {
+      "kicker": "ROLE-BASED OPERATIONS",
+      "title": "同一份现场数据，<br>按角色查看相应界面。",
+      "copy": "为企业提供预防与执行，为地方政府提供政策指标与运营成果，为运营中心提供案例管理与后续措施流程。",
+      "tabMunicipality": "地方政府",
+      "tabCompany": "企业",
+      "tabOperations": "运营中心",
+      "municipality": {
+        "title": "地区海外劳动力运营现状",
+        "subtitle": "示例界面 · 以去标识化指标为中心"
+      },
+      "company": {
+        "title": "本企业海外劳动者管理",
+        "subtitle": "示例界面 · 企业负责人用"
+      },
+      "operations": {
+        "title": "运营中心综合现状",
+        "subtitle": "示例界面 · 以案例管理与报告业务为中心"
+      }
+    },
+    "report": {
+      "kicker": "REPORTING & GOVERNANCE",
+      "title": "将现场数据<br>转化为政策判断资料。",
+      "copy": "报告不应是控制个别劳动者的手段，而应识别教育、适应、安全与变更业务的改进点。默认提供去标识化摘要，详细信息按权限与同意分离。",
+      "point1": {
+        "title": "周运营报告",
+        "copy": "新入境与安置、教育未完成、紧急支持与后续检查现状"
+      },
+      "point2": {
+        "title": "月管理报告",
+        "copy": "协同教育、适应检查、企业管理与变更业务成果及措施率"
+      },
+      "point3": {
+        "title": "季度政策报告",
+        "copy": "地区需求、分行业议题、运营成果、下季度改进建议"
+      },
+      "mail": {
+        "title": "2026年7月海外劳动力综合管理月运营报告",
+        "status": "准备发送",
+        "action": "查看报告结构"
+      }
+    },
+    "cta": {
+      "kicker": "NEXT STEP",
+      "title": "开启海外劳动者安全适应、<br>企业与地区共同成长的运营体系。",
+      "copy": "Global Workforce Operations 以地方政府委托业务的实际流程为准，将协同教育、适应支持、变更业务与政策报告连接于同一界面与运营流程。",
+      "btnConsult": "咨询合作结构",
+      "btnTop": "返回顶部"
+    },
+    "footer": {
+      "tagline": "地方政府委托型海外劳动力综合运营平台",
+      "taglineDetail": "入境后协同教育 · 适应与安全检查 · 转职与工作地点变更支持 · 政策报告"
+    },
+    "worker": {
+      "card": {
+        "title": "劳动者综合管理卡",
+        "subtitle": "个人教育·咨询·检查·变更记录",
+        "status": "适应确认中"
+      },
+      "timeline1": {
+        "title": "入境后协同教育完成",
+        "desc": "劳动者教育完成确认"
+      },
+      "timeline2": {
+        "title": "生活·工作适应检查",
+        "desc": "确认居住·交通·现场沟通状态"
+      },
+      "timeline3": {
+        "title": "咨询请求后后续确认",
+        "desc": "记录支持衔接与下次检查日"
+      },
+      "legal": {
+        "kicker": "AI法亲联动模块",
+        "title": "出现问题时，<br>先用母语整理。",
+        "copy": "AI法亲不判定法律结果，先整理您的情况、指引所需资料与程序，再连接运营中心与专家支持。",
+        "item1": "工资·劳动合同相关困难",
+        "item2": "工业安全·事故·工作环境担忧",
+        "item3": "居留·变更程序与所需文件",
+        "btn": "查看AI法亲联动流程"
+      },
+      "analysis": {
+        "title": "个别咨询·分析指示",
+        "step1": "① 用母语记录情况、症状与请求内容。",
+        "step2": "② 分类风险信号（安全·生活·沟通）并确定优先级。",
+        "step3": "③ 指引所需支持·咨询·后续检查路径并告知下次日程。"
+      },
+      "phone": {
+        "title": "请确认今天所需的<br>现场指引",
+        "job": "制造业 · 入境第28天",
+        "status": "正常",
+        "row1": "作业前安全手册",
+        "row2": "协同教育完成",
+        "row3": "求助 / AI法亲",
+        "badge1": "确认",
+        "badge2": "完成",
+        "badge3": "打开"
+      },
+      "app": {
+        "title": "制造业·冲压作业<br>今日安全指引",
+        "taskTitle": "作业开始前确认",
+        "taskDesc": "请先穿戴防护装备，并确认机器周围危险因素。",
+        "check1": "查看防护装备穿戴方法",
+        "check2": "确认危险行为",
+        "check3": "事故时呼叫管理员的方法",
+        "cta": "确认理解并保存完成记录"
+      },
+      "ops": {
+        "metric1": {
+          "label": "新咨询受理",
+          "em": "需分配负责人"
+        },
+        "metric2": {
+          "label": "后续检查预定",
+          "em": "7·30·90天标准"
+        },
+        "metric3": {
+          "label": "专家转介进行中",
+          "em": "运营人员确认中"
+        },
+        "metric4": {
+          "label": "分析·指示待处理",
+          "em": "个别咨询件"
+        },
+        "flowTitle": "个别咨询处理流程",
+        "flow1": "受理·母语记录",
+        "flow2": "情况分析·风险信号分类",
+        "flow3": "支持·后续检查指示",
+        "priorityTitle": "今日个别咨询优先处理",
+        "priority1": "紧急安全确认咨询",
+        "priority2": "生活·沟通困难分析",
+        "priority3": "居留·变更程序咨询"
+      }
+    }
+  },
+  "pages": {
+    "detailBack": "← 返回",
+    "learnMore": "了解更多",
+    "backHome": "← 返回首页",
+    "backMandate": "← 返回委托业务",
+    "backCycle": "← 返回劳动者旅程",
+    "backEducation": "← 返回协同教育"
+  }
+}

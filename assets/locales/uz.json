@@ -1,0 +1,322 @@
+{
+  "common": {
+    "nav": {
+      "mandate": "Topshiriq vazifalari",
+      "education": "Hamkor ta'lim",
+      "support": "Moslashuv va huquqlar",
+      "dashboard": "Operatsiya paneli",
+      "report": "Siyosat hisoboti",
+      "inquiry": "Hamkorlik so'rovi",
+      "menuOpen": "Menyuni ochish",
+      "menuClose": "Menyuni yopish",
+      "home": "Bosh sahifa",
+      "supportWorker": "Maslahat va yordam",
+      "educationWorker": "Ko'p tilli ta'lim"
+    },
+    "learnMore": "Batafsil →",
+    "backHome": "← Bosh sahifaga",
+    "backMandate": "← Topshiriq vazifalariga",
+    "backCycle": "← Ishchi yo'liga",
+    "backEducation": "← Hamkor ta'limga",
+    "footer": {
+      "platform": "Platforma",
+      "contact": "Aloqa",
+      "copyright": "© 2026 Global Workforce Operations. Barcha huquqlar himoyalangan.",
+      "tagline": "Mahalliy hokimiyat topshirig'idagi xorijiy ishchi kuchi integratsiyalangan operatsiya platformasi",
+      "taglineDetail": "Kelgandan keyin hamkor ta'lim · Moslashuv va xavfsizlik tekshiruvi · Ish/o'rin o'zgarishi yordami · Siyosat hisoboti",
+      "linkMandate": "Mahalliy hokimiyat topshirig'i",
+      "linkEducation": "Hamkor ta'lim",
+      "linkSupport": "Moslashuv va huquqlar yordami",
+      "linkDashboard": "Operatsiya paneli",
+      "linkReport": "Siyosat hisoboti"
+    },
+    "buttons": {
+      "municipalityInquiry": "Mahalliy hokimiyat hamkorligi so'rovi",
+      "viewMandate": "Topshiriq vazifalarini ko'rish",
+      "cooperationConsult": "Hamkorlik tuzilmasi bo'yicha maslahat",
+      "backToTop": "Boshiga qaytish",
+      "viewReport": "Hisobot tuzilmasini ko'rish",
+      "viewLegal": "AI huquqiy yordam oqimini ko'rish"
+    },
+    "modal": {
+      "close": "Yopish",
+      "inquiry": {
+        "title": "Hamkorlik so'rovi",
+        "desc": "Joriy etish maqsadi va operatsiya muhitini qoldiring. Bu taklif oqimini ko'rib chiqish uchun demo shakl."
+      },
+      "municipality": {
+        "title": "Mahalliy hokimiyat hamkorligi so'rovi",
+        "desc": "Hududning sanoati, ishchi kuchi holati va mavjud operatsiya tizimiga asoslanib, kelgandan keyingi hamkor ta'lim, moslashuv va xavfsizlik tekshiruvi hamda o'zgarish yordami uchun topshirma modeli tuziladi."
+      },
+      "legal": {
+        "title": "AI huquqiy yordam oqimi",
+        "desc": "Ishchining ona tilidagi kiritma → vaziyatni tartibga solish → hujjat va tartib yo'riqnomasi → operatsiya markazi tekshiruvi → kerak bo'lsa mutaxassisga ulanish"
+      },
+      "report": {
+        "title": "Siyosat hisoboti tuzilmasi",
+        "desc": "Haftalik, oylik va choraklik qaysi ko'rsatkichlar yig'ilishi va qaysi ma'lumotlar anonim xulosa sifatida berilishini sozlash ekrani."
+      }
+    },
+    "form": {
+      "org": "Tashkilot/kompaniya nomi",
+      "name": "Mas'ul shaxs ismi",
+      "type": "So'rov turi",
+      "message": "Xabar matni",
+      "submit": "So'rovni tasdiqlash",
+      "note": "Ushbu shablon demo hisoblanadi. Haqiqiy operatsiyada alohida maxfiylik siyosati, rozilik va kirish huquqlari tizimini qo'llang.",
+      "submitNote": "Kiritilgan ma'lumot tasdiqlandi. Haqiqiy integratsiyada mas'ul email yoki CRM qabul oqimiga ulanadi.",
+      "orgPlaceholder": "Tashkilot yoki kompaniya nomi",
+      "namePlaceholder": "Mas'ul shaxs ismi",
+      "messagePlaceholder": "Joriy etish hududi, sanoat, maqsadli hajm va ustuvor vazifalarni yozing.",
+      "typeMunicipality": "Mahalliy hokimiyat topshirma operatsiyasi maslahati",
+      "typeCompany": "Kompaniya joriy etish maslahati",
+      "typeEducation": "Hamkor ta'lim dasturi maslahati",
+      "typeReport": "Hisobot va panel sozlash maslahati"
+    },
+    "lang": {
+      "sectionTitle": "Til",
+      "switcherLabel": "Tilni tanlash"
+    }
+  },
+  "index": {
+    "meta": {
+      "title": "Global Workforce Operations",
+      "description": "Mahalliy hokimiyat topshirig'idagi xorijiy ishchi kuchi integratsiyalangan operatsiya platformasi shabloni"
+    },
+    "hero": {
+      "eyebrow": "GLOBAL WORKFORCE OPERATIONS",
+      "title": "Kelgandan keyin<br><strong>barqaror joylashish</strong>gacha<br>birgalikda boshqaramiz.",
+      "copy": "Mahalliy hokimiyat siyosati va korxona maydonchasini bog'lab, xorijiy ishchilarning hamkor ta'limi, moslashuv va xavfsizlik tekshiruvi hamda ish/o'rin o'zgarishi yordamini bitta operatsiya tizimida boshqaradigan platforma shabloni.",
+      "btnMunicipality": "Mahalliy hokimiyat hamkorligi so'rovi",
+      "btnMandate": "Topshiriq vazifalarini ko'rish",
+      "note": "※ Ushbu ekran Global Workforce Operations tanitish va taklif shabloni."
+    },
+    "stats": {
+      "education": {
+        "title": "Kelgandan keyin hamkor ta'lim",
+        "desc": "Kompaniya va ishchi birgalikda boshlaydigan maydonda moslashuv ta'limi",
+        "more": "Batafsil →"
+      },
+      "safety": {
+        "title": "Moslashuv va xavfsizlik holati tekshiruvi",
+        "desc": "Kuzatuv emas, erta aniqlash va yordam bog'lash markazidagi tekshiruv",
+        "more": "Batafsil →"
+      },
+      "transfer": {
+        "title": "Ish va o'rin o'zgarishi yordami",
+        "desc": "Maslahat, muddat, hujjatlar va qayta moslashuv tekshiruvigacha oqimni boshqarish",
+        "more": "Batafsil →"
+      },
+      "report": {
+        "title": "Mahalliy hokimiyat siyosat hisoboti",
+        "desc": "Maydonni anonim ko'rsatkichlar va operatsiya natijalariga aylantirish",
+        "more": "Batafsil →"
+      }
+    },
+    "mandate": {
+      "kicker": "MUNICIPALITY DELEGATED OPERATIONS",
+      "title": "Mahalliy hokimiyat topshirgan asosiy vazifalarni<br>maydonda ishlaydigan qilamiz.",
+      "copy": "Global Workforce Operations ishchi tanlash emas — kelgandan keyin moslashuv, xavfsizlik va o'zgarish vazifalarini tizimli qo'llab-quvvatlab, operatsiya natijalarini hisobot qiladigan professional model.",
+      "card1": {
+        "title": "Kelgandan keyin<br>ish beruvchi bilan hamkor ta'lim",
+        "copy": "Ishchilarga ko'p tilli hayot, xavfsizlik, mehnat asoslari va vazifa qo'llanmalari; kompaniya mas'uliga dastlabki moslashuv yordami, ko'p tilli ko'rsatmalar va xavfsizlik standartlari."
+      },
+      "card2": {
+        "title": "Moslashuv va xavfsizlik tekshiruvi<br>va erta yordam",
+        "copy": "Ta'lim tugallanmaganligi, ish/hayot qiyinchiliklari, xavfsizlik tashvishlari va nizolar kabi erta xavf belgilarini aniqlab, ishchining tilida sababni tushunib, yordam va kuzatuvga bog'laymiz."
+      },
+      "card3": {
+        "title": "Ish va ish joyi o'zgarishi<br>vazifalariga yordam",
+        "copy": "O'zgarish niyatini maslahatlashdan tartib, muddat, hujjatlar, kompaniya bilan kelishuv va o'zgarishdan keyin 30·60·90 kunlik qayta moslashuv tekshiruvigacha butun oqimni yozib boshqaramiz."
+      }
+    },
+    "cycle": {
+      "kicker": "WORKER JOURNEY",
+      "title": "Bir martalik qabul emas —<br>butun joylashish jarayonini boshqaramiz.",
+      "copy": "Kelishning dastlabki tashvishlari va maydondagi moslashuv muammolarini o'tkazib yubormaydi; o'zgarish kerak bo'lganda barqaror muhitga qayta bog'laydi.",
+      "step1": {
+        "title": "Kelish va kompaniyaga joylashtirish",
+        "copy": "Asosiy profil, til, sanoat, kompaniya va hudud ma'lumotlarini ro'yxatdan o'tkazib, dastlabki operatsiya yo'lini belgilaymiz."
+      },
+      "step2": {
+        "title": "Hamkor ta'lim va qo'llanmalar",
+        "copy": "Ishchi va kompaniya mas'uli o'z rollari va maydon standartlarini tasdiqlab, tugatish tarixini saqlaydi."
+      },
+      "step3": {
+        "title": "7·30·90 kunlik moslashuv tekshiruvi",
+        "copy": "Moslashuv, xavfsizlik, hayot va muloqot holatini tekshirib, kerakli yordamni erta bog'laymiz."
+      },
+      "step4": {
+        "title": "O'zgarish va qayta joylashish yordami",
+        "copy": "Ish yoki ish joyi o'zgarishi kerak bo'lsa, tartibni ko'rsatib, o'zgarishdan keyin moslashuvni qayta tekshiramiz."
+      }
+    },
+    "education": {
+      "kicker": "MULTILINGUAL CO-EDUCATION",
+      "title": "Sanoat bo'yicha maydon qo'llanmalarini<br>ishchining tilida yetkazamiz.",
+      "copy": "Faqat tarjima qilingan hujjatlar emas — rasmlar, sxemalar, audio, qisqa video va tushunish tekshiruvi bilan maydonda ishlatiladigan ko'p tilli ta'lim tajribasi.",
+      "feature1": {
+        "title": "Ishchilar uchun ko'p tilli qo'llanmalar",
+        "copy": "Ishdan oldin, davomida va keyin; himoya vositalari; baxtsiz hodisada harakatlar; yordam so'rash yo'li"
+      },
+      "feature2": {
+        "title": "Kompaniya mas'uli hamkor ta'limi",
+        "copy": "Dastlabki moslashuv yordami, ish ko'rsatmalari, nizolarni oldini olish, maydon xavfsizlik standartlari"
+      },
+      "feature3": {
+        "title": "Ta'lim tugatish va qayta o'qitish boshqaruvi",
+        "copy": "Tushunish tekshiruvi, tugallanmaganlik ogohlantirishi, qayta o'qitish tasnifi, mahalliy hokimiyat hisobotiga qo'shilish"
+      },
+      "langSupport": {
+        "title": "8 ta ishchi tili qo'llab-quvvatlanadi: singal, ingliz, xitoy, filippin, tailand, urdu, o'zbek, qirg'iz",
+        "languages": "Singal · Ingliz · Xitoy · Filippin · Tailand · Urdu · O'zbek · Qirg'iz"
+      }
+    },
+    "support": {
+      "kicker": "ADAPTATION & RIGHTS SUPPORT",
+      "title": "Anormal belgilardan oldin<br>moslashuv qiyinchiliklarini aniqlaymiz.",
+      "copy": "Xorijiy ishchilarning qiyinchiliklarini oddiy ketish xavfi deb emas, ish, xavfsizlik, turmush va muloqot sabablarini aniqlab yordam yo'llariga bog'laymiz."
+    },
+    "dashboard": {
+      "kicker": "ROLE-BASED OPERATIONS",
+      "title": "Bir xil maydon ma'lumotlari<br>rolga mos ekranlarda",
+      "copy": "Kompaniyaga oldini olish va bajarish; mahalliy hokimiyatga siyosat ko'rsatkichlari va operatsiya natijalari; operatsiya markaziga ish holatlari boshqaruvi va kuzatuv oqimi.",
+      "tabMunicipality": "Mahalliy hokimiyat",
+      "tabCompany": "Kompaniya",
+      "tabOperations": "Operatsiya markazi",
+      "municipality": {
+        "title": "Hududiy xorijiy ishchi kuchi operatsiya holati",
+        "subtitle": "Namuna ekran · anonim ko'rsatkichlar markazida"
+      },
+      "company": {
+        "title": "Kompaniyamizning xorijiy ishchilar boshqaruvi",
+        "subtitle": "Namuna ekran · kompaniya mas'uli uchun"
+      },
+      "operations": {
+        "title": "Operatsiya markazi integratsiyalangan holati",
+        "subtitle": "Namuna ekran · ish holatlari va hisobot markazida"
+      }
+    },
+    "report": {
+      "kicker": "REPORTING & GOVERNANCE",
+      "title": "Maydon ma'lumotlarini<br>siyosat qarorlari uchun materiallarga aylantiramiz.",
+      "copy": "Hisobot alohida ishchini nazorat qilish vositasi emas — ta'lim, moslashuv, xavfsizlik va o'zgarish vazifalaridagi yaxshilash nuqtalarini aniqlashi kerak.",
+      "point1": {
+        "title": "Haftalik operatsiya hisoboti",
+        "copy": "Yangi kelish va joylashtirish, tugallanmagan ta'lim, shoshilinch yordam va kuzatuv holati"
+      },
+      "point2": {
+        "title": "Oylik boshqaruv hisoboti",
+        "copy": "Hamkor ta'lim, moslashuv tekshiruvi, kompaniya boshqaruvi va o'zgarish vazifalari natijalari hamda chora ko'rish darajasi"
+      },
+      "point3": {
+        "title": "Choraklik siyosat hisoboti",
+        "copy": "Hududiy talab, sanoat bo'yicha masalalar, operatsiya natijalari, keyingi chorak yaxshilash takliflari"
+      },
+      "mail": {
+        "title": "2026-yil iyul oyida xorijiy ishchi kuchini integratsiyalangan boshqaruv oylik hisoboti",
+        "status": "Yuborishga tayyor",
+        "action": "Hisobot tuzilmasini ko'rish"
+      }
+    },
+    "cta": {
+      "kicker": "NEXT STEP",
+      "title": "Xorijiy ishchilar xavfsiz moslashadigan va kompaniya hamda hudud birga o'sadigan operatsiya tizimini boshlang.",
+      "copy": "Global Workforce Operations mahalliy hokimiyat topshirig'i vazifalarining haqiqiy oqimiga asoslanib, hamkor ta'lim, moslashuv yordami, o'zgarish vazifalari va siyosat hisobotini bitta ekran va jarayonda bog'laydi.",
+      "btnConsult": "Hamkorlik tuzilmasi bo'yicha maslahat",
+      "btnTop": "Boshiga qaytish"
+    },
+    "footer": {
+      "tagline": "Mahalliy hokimiyat topshirig'idagi xorijiy ishchi kuchi integratsiyalangan operatsiya platformasi",
+      "taglineDetail": "Kelgandan keyin hamkor ta'lim · Moslashuv va xavfsizlik tekshiruvi · Ish/o'rin o'zgarishi yordami · Siyosat hisoboti"
+    },
+    "worker": {
+      "card": {
+        "title": "Ishchi integratsiyalangan boshqaruv kartasi",
+        "subtitle": "Shaxsiy ta'lim · maslahat · tekshiruv · o'zgarish tarixi",
+        "status": "Moslashuv tekshirilmoqda"
+      },
+      "timeline1": {
+        "title": "Kelgandan keyin hamkor ta'lim yakunlandi",
+        "desc": "Ishchi ta'limini tugatgani tasdiqlandi"
+      },
+      "timeline2": {
+        "title": "Turmush va ish moslashuvi tekshiruvi",
+        "desc": "Turar joy, transport, maydonda muloqot holati"
+      },
+      "timeline3": {
+        "title": "Maslahat so'rovidan keyin kuzatuv",
+        "desc": "Yordam bog'lanishi va keyingi tekshiruv sanasi yozildi"
+      },
+      "legal": {
+        "kicker": "AI huquqiy yordamchi bog'lanish moduli",
+        "title": "Muammo paydo bo'lganda,<br>avval ona tilingizda tartibga solamiz.",
+        "copy": "AI huquqiy yordamchi huquqiy natija bermaydi—holatni tartibga soladi, hujjat va tartibni ko'rsatadi, operatsiya markaziga bog'laydi.",
+        "item1": "Ish haqi va mehnat shartnomasi qiyinchiliklari",
+        "item2": "Sanoat xavfsizligi, baxtsiz hodisa, ish muhiti",
+        "item3": "Yashash va o'zgarish tartibi hamda hujjatlar",
+        "btn": "AI yordamchi oqimini ko'rish"
+      },
+      "analysis": {
+        "title": "Shaxsiy maslahat va tahlil ko'rsatmalari",
+        "step1": "① Holat, belgilar va so'rovlarni ona tilingizda yozing.",
+        "step2": "② Xavf signallarini (xavfsizlik, turmush, muloqot) ajrating va ustuvorlik bering.",
+        "step3": "③ Yordam, maslahat, kuzatuv yo'llarini ko'rsating va keyingi sanani ayting."
+      },
+      "phone": {
+        "title": "Bugungi maydon<br>ko'rsatmalarini ko'ring",
+        "job": "Ishlab chiqarish · 28-kun",
+        "status": "Oddiy",
+        "row1": "Ishdan oldin xavfsizlik qo'llanmasi",
+        "row2": "Hamkor ta'lim tugallandi",
+        "row3": "Yordam so'rovi / AI yordamchi",
+        "badge1": "Ko'rish",
+        "badge2": "Tugallandi",
+        "badge3": "Ochish"
+      },
+      "app": {
+        "title": "Ishlab chiqarish · Press ishi<br>Bugungi xavfsizlik",
+        "taskTitle": "Ish boshlashdan oldin tekshiruv",
+        "taskDesc": "Avval himoya vositalarini kiying va mashina atrofidagi xavflarni tekshiring.",
+        "check1": "Himoya vositalarini kiyish usuli",
+        "check2": "Xavfli xatti-harakatlarni tekshiring",
+        "check3": "Baxtsiz hodisada menejerni chaqirish",
+        "cta": "Tushunishni tasdiqlang va saqlang"
+      },
+      "ops": {
+        "metric1": {
+          "label": "Yangi maslahat qabuli",
+          "em": "Mas'ul biriktirish kerak"
+        },
+        "metric2": {
+          "label": "Kuzatuv tekshiruvi rejalashtirilgan",
+          "em": "7·30·90 kun asosida"
+        },
+        "metric3": {
+          "label": "Mutaxassis bog'lanishi",
+          "em": "Operator tekshirmoqda"
+        },
+        "metric4": {
+          "label": "Tahlil va ko'rsatma kutilmoqda",
+          "em": "Shaxsiy maslahatlar"
+        },
+        "flowTitle": "Shaxsiy maslahat jarayoni",
+        "flow1": "Qabul · ona tili yozuvi",
+        "flow2": "Tahlil · xavf tasnifi",
+        "flow3": "Yordam · kuzatuv ko'rsatmasi",
+        "priorityTitle": "Bugungi ustuvor shaxsiy maslahatlar",
+        "priority1": "Shoshilinch xavfsizlik maslahati",
+        "priority2": "Turmush va muloqot qiyinchilik tahlili",
+        "priority3": "Yashash va o'zgarish tartibi maslahati"
+      }
+    }
+  },
+  "pages": {
+    "detailBack": "← Orqaga",
+    "learnMore": "Batafsil",
+    "backHome": "← Bosh sahifaga",
+    "backMandate": "← Topshiriq vazifalariga",
+    "backCycle": "← Ishchi yo'liga",
+    "backEducation": "← Hamkor ta'limga"
+  }
+}

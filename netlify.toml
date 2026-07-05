@@ -1,0 +1,50 @@
+# Global Workforce Operations — Netlify (GitHub 연동 정적 배포)
+# 저장소 루트 = gwo-template 폴더 기준
+
+[build]
+  publish = "."
+  # 빌드 없음: HTML·CSS·JSON 정적 사이트 (로케일은 저장소에 포함)
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# apex → www, HTTP → HTTPS
+[[redirects]]
+  from = "http://globalworkforceoperations.com/*"
+  to = "https://www.globalworkforceoperations.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.globalworkforceoperations.com/*"
+  to = "https://www.globalworkforceoperations.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://globalworkforceoperations.com/*"
+  to = "https://www.globalworkforceoperations.com/:splat"
+  status = 301
+  force = true
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

@@ -1,0 +1,322 @@
+{
+  "common": {
+    "nav": {
+      "mandate": "Delegated Tasks",
+      "education": "Co-Education",
+      "support": "Adaptation & Rights",
+      "dashboard": "Operations Dashboard",
+      "report": "Policy Reporting",
+      "inquiry": "Partnership Inquiry",
+      "menuOpen": "Open menu",
+      "menuClose": "Close menu",
+      "home": "Home",
+      "supportWorker": "Consultation & support",
+      "educationWorker": "Multilingual training"
+    },
+    "learnMore": "Learn more →",
+    "backHome": "← Back to home",
+    "backMandate": "← Back to delegated tasks",
+    "backCycle": "← Back to worker journey",
+    "backEducation": "← Back to co-education",
+    "footer": {
+      "platform": "Platform",
+      "contact": "Contact",
+      "copyright": "© 2026 Global Workforce Operations. All rights reserved.",
+      "tagline": "Municipality-delegated integrated foreign workforce operations platform",
+      "taglineDetail": "Post-arrival co-education · Adaptation & safety checks · Job/worksite change support · Policy reporting",
+      "linkMandate": "Municipal delegated tasks",
+      "linkEducation": "Co-education",
+      "linkSupport": "Adaptation & rights support",
+      "linkDashboard": "Operations dashboard",
+      "linkReport": "Policy reporting"
+    },
+    "buttons": {
+      "municipalityInquiry": "Municipal partnership inquiry",
+      "viewMandate": "View delegated tasks",
+      "cooperationConsult": "Consult on partnership structure",
+      "backToTop": "Back to top",
+      "viewReport": "View report structure",
+      "viewLegal": "View AI legal support flow"
+    },
+    "modal": {
+      "close": "Close",
+      "inquiry": {
+        "title": "Partnership inquiry",
+        "desc": "Leave your adoption goals and operating environment. This is a demo form configured to review a proposal flow."
+      },
+      "municipality": {
+        "title": "Municipal partnership inquiry",
+        "desc": "Based on local industry, workforce status, and existing operations, we configure a delegated model for post-arrival co-education, adaptation and safety checks, and change support."
+      },
+      "legal": {
+        "title": "AI legal support flow",
+        "desc": "Worker's native-language input → situation summary → guidance on documents and procedures → operations center review → expert referral when needed."
+      },
+      "report": {
+        "title": "Policy report structure",
+        "desc": "A screen to configure which indicators are collected weekly, monthly, and quarterly, and which information is provided as de-identified summaries."
+      }
+    },
+    "form": {
+      "org": "Organization / company",
+      "name": "Contact name",
+      "type": "Inquiry type",
+      "message": "Message",
+      "submit": "Confirm inquiry",
+      "note": "This template form is a demo. In production, apply a separate privacy policy, consent, and access control system.",
+      "submitNote": "Your input has been confirmed. In a live integration, this connects to a responsible email or CRM intake flow.",
+      "orgPlaceholder": "Organization or company name",
+      "namePlaceholder": "Contact person's name",
+      "messagePlaceholder": "Please enter adoption region, industry, target scale, and priority issues to address.",
+      "typeMunicipality": "Municipal delegated operations consultation",
+      "typeCompany": "Company adoption consultation",
+      "typeEducation": "Co-education program consultation",
+      "typeReport": "Reporting & dashboard setup consultation"
+    },
+    "lang": {
+      "sectionTitle": "Language",
+      "switcherLabel": "Select language"
+    }
+  },
+  "index": {
+    "meta": {
+      "title": "Global Workforce Operations",
+      "description": "Municipality-delegated integrated foreign workforce operations platform template"
+    },
+    "hero": {
+      "eyebrow": "GLOBAL WORKFORCE OPERATIONS",
+      "title": "From post-arrival through<br><strong>stable settlement</strong>,<br>we manage it together.",
+      "copy": "A platform template that connects municipal policy with company sites to manage co-education, adaptation and safety checks, and job/worksite change support in one operating system.",
+      "btnMunicipality": "Municipal partnership inquiry",
+      "btnMandate": "View delegated tasks",
+      "note": "※ This screen is an introduction and proposal template for Global Workforce Operations."
+    },
+    "stats": {
+      "education": {
+        "title": "Post-arrival co-education",
+        "desc": "On-site adaptation education that companies and workers start together",
+        "more": "Learn more →"
+      },
+      "safety": {
+        "title": "Adaptation & safety status checks",
+        "desc": "Checks focused on early detection and support linkage, not surveillance",
+        "more": "Learn more →"
+      },
+      "transfer": {
+        "title": "Job & worksite change support",
+        "desc": "Flow management from consultation, deadlines, and documents through re-adaptation checks",
+        "more": "Learn more →"
+      },
+      "report": {
+        "title": "Municipal policy reporting",
+        "desc": "Turn field data into de-identified indicators and operational outcomes",
+        "more": "Learn more →"
+      }
+    },
+    "mandate": {
+      "kicker": "MUNICIPALITY DELEGATED OPERATIONS",
+      "title": "We make the core tasks delegated by municipalities<br>work in the field.",
+      "copy": "Global Workforce Operations is not recruitment—it is a professional operations model that systematically supports post-arrival adaptation, safety, and change tasks and reports operational outcomes.",
+      "card1": {
+        "title": "Post-arrival<br>employer co-education",
+        "copy": "Workers receive multilingual life, safety, labor basics, and job manuals; company contacts receive initial adaptation support, multilingual work instructions, and on-site safety standards."
+      },
+      "card2": {
+        "title": "Adaptation & safety checks<br>and early support",
+        "copy": "We identify early risk signals such as incomplete training, work/life difficulties, safety concerns, and conflicts, understand causes in the worker's language, and connect to support, counseling, and follow-up checks."
+      },
+      "card3": {
+        "title": "Job & worksite change<br>task support",
+        "copy": "From change-intent counseling through procedure, deadline, and document guidance, company coordination, and 30·60·90-day re-adaptation checks after change—we record and manage the full flow."
+      }
+    },
+    "cycle": {
+      "kicker": "WORKER JOURNEY",
+      "title": "Not a one-time intake—<br>we manage the entire settlement journey.",
+      "copy": "A flow that does not miss early-arrival anxiety and on-site adaptation issues, and reconnects workers to a stable environment when change is needed.",
+      "step1": {
+        "title": "Arrival & company placement",
+        "copy": "Register basic profile, language, industry, company, and region, and set the initial operating path."
+      },
+      "step2": {
+        "title": "Co-education & manuals",
+        "copy": "Workers and company contacts confirm their roles and on-site standards, and completion history is saved."
+      },
+      "step3": {
+        "title": "7·30·90-day adaptation checks",
+        "copy": "Check adaptation, safety, living, and communication status and connect needed support early."
+      },
+      "step4": {
+        "title": "Change & re-settlement support",
+        "copy": "When job or worksite change is needed, guide procedures and re-check adaptation after the change."
+      }
+    },
+    "education": {
+      "kicker": "MULTILINGUAL CO-EDUCATION",
+      "title": "We deliver industry-specific on-site manuals<br>in the worker's language.",
+      "copy": "We go beyond translated documents—designing multilingual training with images, diagrams, audio, short video, and comprehension checks for real on-site use.",
+      "feature1": {
+        "title": "Multilingual manuals for workers",
+        "copy": "Before, during, and after work; protective equipment; actions in accidents; help request paths"
+      },
+      "feature2": {
+        "title": "Company contact co-education",
+        "copy": "Initial adaptation support, work instructions, conflict prevention, on-site safety management standards"
+      },
+      "feature3": {
+        "title": "Training completion & re-training management",
+        "copy": "Comprehension checks, incomplete-training alerts, re-training classification, municipal report integration"
+      },
+      "langSupport": {
+        "title": "Support for 8 worker languages: Sinhala, English, Chinese, Filipino, Thai, Urdu, Uzbek, Kyrgyz",
+        "languages": "Sinhala · English · Chinese · Filipino · Thai · Urdu · Uzbek · Kyrgyz"
+      }
+    },
+    "support": {
+      "kicker": "ADAPTATION & RIGHTS SUPPORT",
+      "title": "Before abnormal signs,<br>we detect adaptation difficulties.",
+      "copy": "We do not treat workers' difficulties as simple attrition risk—we identify causes in work, safety, living, and communication and connect to support paths."
+    },
+    "dashboard": {
+      "kicker": "ROLE-BASED OPERATIONS",
+      "title": "The same field data,<br>viewed through role-appropriate screens.",
+      "copy": "Companies get prevention and compliance; municipalities get policy indicators and operational outcomes; the operations center gets case management and follow-up flows.",
+      "tabMunicipality": "Municipality",
+      "tabCompany": "Company",
+      "tabOperations": "Operations center",
+      "municipality": {
+        "title": "Regional foreign workforce operations status",
+        "subtitle": "Sample screen · de-identified indicators focus"
+      },
+      "company": {
+        "title": "Our company's foreign worker management",
+        "subtitle": "Sample screen · for company contacts"
+      },
+      "operations": {
+        "title": "Operations center integrated status",
+        "subtitle": "Sample screen · case management and reporting focus"
+      }
+    },
+    "report": {
+      "kicker": "REPORTING & GOVERNANCE",
+      "title": "We turn field data<br>into policy decision materials.",
+      "copy": "Reporting should not control individual workers—it should identify improvement points in education, adaptation, safety, and change tasks. Default is de-identified summaries; details are separated by permission and consent.",
+      "point1": {
+        "title": "Weekly operations report",
+        "copy": "New arrivals & placement, incomplete training, urgent support & follow-up check status"
+      },
+      "point2": {
+        "title": "Monthly management report",
+        "copy": "Co-education, adaptation checks, company management, and change task outcomes and action rates"
+      },
+      "point3": {
+        "title": "Quarterly policy report",
+        "copy": "Regional demand, industry-specific issues, operational outcomes, next-quarter improvement proposals"
+      },
+      "mail": {
+        "title": "July 2026 foreign workforce integrated management monthly report",
+        "status": "Ready to send",
+        "action": "View report structure"
+      }
+    },
+    "cta": {
+      "kicker": "NEXT STEP",
+      "title": "Start an operating system where foreign workers adapt safely<br>and companies and regions grow together.",
+      "copy": "Global Workforce Operations connects co-education, adaptation support, change tasks, and policy reporting in one screen and operating process, based on the real flow of municipal delegated tasks.",
+      "btnConsult": "Consult on partnership structure",
+      "btnTop": "Back to top"
+    },
+    "footer": {
+      "tagline": "Municipality-delegated integrated foreign workforce operations platform",
+      "taglineDetail": "Post-arrival co-education · Adaptation & safety checks · Job/worksite change support · Policy reporting"
+    },
+    "worker": {
+      "card": {
+        "title": "Worker integrated management card",
+        "subtitle": "Individual education · consultation · checks · change history",
+        "status": "Adaptation check in progress"
+      },
+      "timeline1": {
+        "title": "Post-arrival co-education completed",
+        "desc": "Worker training completion confirmed"
+      },
+      "timeline2": {
+        "title": "Living & work adaptation check",
+        "desc": "Housing, transport, on-site communication status check"
+      },
+      "timeline3": {
+        "title": "Follow-up after consultation request",
+        "desc": "Support linkage and next check date recorded"
+      },
+      "legal": {
+        "kicker": "AI Legal Buddy link module",
+        "title": "When a problem arises,<br>we organize it first in your language.",
+        "copy": "AI Legal Buddy does not determine legal outcomes. It organizes your situation, guides required documents and steps, then connects to the operations center and expert support.",
+        "item1": "Wage & employment contract difficulties",
+        "item2": "Industrial safety, accidents, work environment concerns",
+        "item3": "Stay & change procedures and required documents",
+        "btn": "View AI Legal Buddy flow"
+      },
+      "analysis": {
+        "title": "Individual consultation & analysis guidance",
+        "step1": "① Record situation, symptoms, and requests in your language.",
+        "step2": "② Classify risk signals (safety, living, communication) and set priority.",
+        "step3": "③ Guide support, consultation, and follow-up paths and notify the next schedule."
+      },
+      "phone": {
+        "title": "Check today's<br>on-site guidance",
+        "job": "Manufacturing · Day 28",
+        "status": "Normal",
+        "row1": "Pre-work safety manual",
+        "row2": "Co-education completed",
+        "row3": "Help request / AI Legal Buddy",
+        "badge1": "View",
+        "badge2": "Done",
+        "badge3": "Open"
+      },
+      "app": {
+        "title": "Manufacturing · Press work<br>Today's safety guide",
+        "taskTitle": "Pre-work checklist",
+        "taskDesc": "Wear protective gear first and check hazards around the machine.",
+        "check1": "How to wear protective gear",
+        "check2": "Check risky behaviors",
+        "check3": "How to call a supervisor in an accident",
+        "cta": "Confirm understanding and save completion"
+      },
+      "ops": {
+        "metric1": {
+          "label": "New consultation intake",
+          "em": "Assignment needed"
+        },
+        "metric2": {
+          "label": "Follow-up checks scheduled",
+          "em": "7·30·90 day basis"
+        },
+        "metric3": {
+          "label": "Expert referral in progress",
+          "em": "Operator reviewing"
+        },
+        "metric4": {
+          "label": "Analysis & guidance pending",
+          "em": "Individual consultation cases"
+        },
+        "flowTitle": "Individual consultation workflow",
+        "flow1": "Intake · native-language record",
+        "flow2": "Situation analysis · risk classification",
+        "flow3": "Support · follow-up check directive",
+        "priorityTitle": "Today's priority individual consultations",
+        "priority1": "Urgent safety consultation",
+        "priority2": "Living & communication difficulty analysis",
+        "priority3": "Stay & change procedure consultation"
+      }
+    }
+  },
+  "pages": {
+    "detailBack": "← Go back",
+    "learnMore": "Learn more",
+    "backHome": "← Back to home",
+    "backMandate": "← Back to delegated tasks",
+    "backCycle": "← Back to worker journey",
+    "backEducation": "← Back to co-education"
+  }
+}

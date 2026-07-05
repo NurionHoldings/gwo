@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python (로케일 빌드 스크립트용)
+__pycache__/
+*.py[cod]
+.Python
+.venv/
+venv/
+
+# 로컬·도구
+.env
+.env.*
+.netlify/
+
+# 에디터
+.idea/
+.vscode/
+*.swp
