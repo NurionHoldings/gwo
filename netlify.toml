@@ -8,24 +8,8 @@
 [build.environment]
   NODE_VERSION = "20"
 
-# apex → www, HTTP → HTTPS
-[[redirects]]
-  from = "http://globalworkforceoperations.com/*"
-  to = "https://www.globalworkforceoperations.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "http://www.globalworkforceoperations.com/*"
-  to = "https://www.globalworkforceoperations.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://globalworkforceoperations.com/*"
-  to = "https://www.globalworkforceoperations.com/:splat"
-  status = 301
-  force = true
+# 도메인 리다이렉트는 netlify.toml이 아니라 Netlify UI에서만 설정하세요.
+# (toml apex→www + UI www→apex 동시 적용 시 ERR_TOO_MANY_REDIRECTS 발생)
 
 [[headers]]
   for = "/*"

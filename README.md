@@ -69,7 +69,11 @@ www     CNAME   dulcet-piroshki-12725e.netlify.app
 @       ALIAS  또는 A   Netlify Domain management 화면 안내값
 ```
 
-Netlify → **Domain management** → `www.globalworkforceoperations.com` 추가 후, 위 CNAME을 등록하면 SSL이 자동 발급됩니다. 커스텀 도메인 연결 후 Netlify에서 **Primary domain**을 `www`로 지정하세요.
+Netlify → **Domain management** → `www.globalworkforceoperations.com` 추가 후, 위 CNAME을 등록하면 SSL이 자동 발급됩니다.
+
+**Primary domain은 Netlify UI에서 한 곳만 지정**하세요 (`www` 또는 apex 중 하나). `netlify.toml`에 apex↔www 리다이렉트를 추가하면 UI 설정과 충돌해 `ERR_TOO_MANY_REDIRECTS`가 발생할 수 있습니다.
+
+권장: Primary = `www.globalworkforceoperations.com` → apex는 Netlify가 자동으로 www로 보냄.
 
 ### 4. 배포 후 확인
 
