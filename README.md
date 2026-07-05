@@ -1,5 +1,15 @@
 # Global Workforce Operations — 1차 템플릿
 
+## 배포 현황
+
+| 항목 | URL |
+|------|-----|
+| GitHub | [github.com/NurionHoldings/gwo](https://github.com/NurionHoldings/gwo) |
+| Netlify (미리보기) | [dulcet-piroshki-12725e.netlify.app](https://dulcet-piroshki-12725e.netlify.app) |
+| 커스텀 도메인 (예정) | `www.globalworkforceoperations.com` |
+
+홈·상세 페이지·다국어·에셋 모두 Netlify에서 정상 서비스 중입니다.
+
 ## 포함 내용
 - 지자체 위탁 핵심업무 3종
   1. 입국 후 채용기업 동반교육
@@ -55,17 +65,17 @@ Netlify → **Domain management** → **Add domain**:
 도메인 등록업체 DNS 예시:
 
 ```
-www     CNAME   <사이트명>.netlify.app
-@       ALIAS  또는 A   Netlify 안내 IP/레코드
+www     CNAME   dulcet-piroshki-12725e.netlify.app
+@       ALIAS  또는 A   Netlify Domain management 화면 안내값
 ```
 
-SSL은 Netlify에서 Let's Encrypt로 자동 발급됩니다.
+Netlify → **Domain management** → `www.globalworkforceoperations.com` 추가 후, 위 CNAME을 등록하면 SSL이 자동 발급됩니다. 커스텀 도메인 연결 후 Netlify에서 **Primary domain**을 `www`로 지정하세요.
 
 ### 4. 배포 후 확인
 
-- `https://www.globalworkforceoperations.com/`
-- `https://www.globalworkforceoperations.com/sitemap.xml`
-- `https://www.globalworkforceoperations.com/robots.txt`
+- [dulcet-piroshki-12725e.netlify.app](https://dulcet-piroshki-12725e.netlify.app) (현재)
+- `https://www.globalworkforceoperations.com/` (커스텀 도메인 연결 후)
+- `/sitemap.xml`, `/robots.txt`
 - 언어 전환·상세 페이지 링크·모바일 줄바꿈
 
 ### 5. 로케일 수정 시
