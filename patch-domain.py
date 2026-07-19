@@ -13,7 +13,7 @@ META_BLOCK = """  <link rel="canonical" href="{url}" />
 """
 
 WEBSITE_LINE = (
-    'W. <a href="https://www.globalworkforceoperations.com" '
+    '웹사이트 <a href="https://www.globalworkforceoperations.com" '
     'rel="noopener">www.globalworkforceoperations.com</a><br>'
 )
 
@@ -36,6 +36,11 @@ def patch_head(text: str, url: str) -> str:
 
 
 def patch_footer(text: str) -> str:
+    text = text.replace(
+        'W. <a href="https://www.globalworkforceoperations.com" '
+        'rel="noopener">www.globalworkforceoperations.com</a><br>',
+        WEBSITE_LINE,
+    )
     if "globalworkforceoperations.com" in text:
         return text
     return text.replace(
