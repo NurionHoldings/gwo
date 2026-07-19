@@ -136,6 +136,18 @@ async function minifyLocales() {
   }
 }
 
+async function minifyJsOnly(source, label) {
+  const terserResult = await minifyJs(source, {
+    compress: true,
+    mangle: false,
+    format: { comments: false },
+  });
+  if (terserResult.error) {
+    throw new Error(`Terser failed (${label}): ${terserResult.error.message}`);
+  }
+  return terserResult.code;
+}
+
 async function buildAssets() {
   const cssFiles = ['assets/site.css', 'assets/logo-animated.css'];
   for (const rel of cssFiles) {
@@ -145,6 +157,13 @@ async function buildAssets() {
 
   const i18nSource = await fs.readFile(path.join(ROOT, 'assets/i18n.js'), 'utf8');
   await writeFile('assets/i18n.js', await protectJs(i18nSource, 'assets/i18n.js'));
+
+  // Chart.js 연동 스크립트는 API 호환을 위해 미니파이만 적용
+  const chartsSource = await fs.readFile(path.join(ROOT, 'assets/policy-brief-charts.js'), 'utf8');
+  await writeFile(
+    'assets/policy-brief-charts.js',
+    await minifyJsOnly(chartsSource, 'assets/policy-brief-charts.js'),
+  );
 }
 
 async function buildHtml() {
