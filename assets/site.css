@@ -384,51 +384,168 @@
     @media (max-width: 820px) { .detail-grid { grid-template-columns: 1fr; } }
 
     /* ── Policy brief (민간 관리기관 필요성 보고서) ── */
-    .brief-hero { padding-bottom: 8px; }
-    .brief-wrap { width: min(var(--max), calc(100% - 44px)); margin: 0 auto 56px; }
+    .brief-main {
+      overflow: hidden;
+      padding: 34px 0 0;
+      background:
+        radial-gradient(circle at 90% 2%, rgba(65,105,225,.1), transparent 26rem),
+        radial-gradient(circle at 2% 18%, rgba(255,117,27,.08), transparent 22rem);
+    }
+    .brief-wrap { width: min(1220px, calc(100% - 44px)); margin: 0 auto 72px; }
     .brief-cover {
       position: relative;
       overflow: hidden;
-      padding: 48px 40px 40px;
-      border-radius: var(--radius-xl);
+      isolation: isolate;
+      padding: 30px 46px 28px;
+      border-radius: 30px;
       color: #fff;
       background:
-        radial-gradient(circle at 88% 12%, rgba(255,117,27,.22), transparent 18rem),
-        linear-gradient(145deg, #172033 0%, #283449 55%, #3a4d75 100%);
-      box-shadow: var(--shadow);
+        linear-gradient(116deg, #131b2d 0%, #1e2c4a 57%, #324c83 100%);
+      box-shadow: 0 30px 76px rgba(19, 32, 59, .28);
+    }
+    .brief-cover::before,
+    .brief-cover::after {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    .brief-cover::before {
+      top: -10rem;
+      right: -5rem;
+      width: 32rem;
+      height: 32rem;
+      border: 1px solid rgba(255,255,255,.13);
+      box-shadow: 0 0 0 3.6rem rgba(255,255,255,.025), 0 0 0 7.2rem rgba(255,255,255,.018);
+    }
+    .brief-cover::after {
+      right: 23%;
+      bottom: -13rem;
+      width: 23rem;
+      height: 23rem;
+      border: 1px solid rgba(255,255,255,.1);
+    }
+    .brief-cover__glow {
+      position: absolute;
+      z-index: -1;
+      top: 15%;
+      right: 11%;
+      width: 13rem;
+      height: 13rem;
+      border-radius: 50%;
+      background: rgba(255,117,27,.28);
+      filter: blur(54px);
+      pointer-events: none;
+    }
+    .brief-cover__grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.6fr) minmax(244px, .7fr);
+      gap: 50px;
+      align-items: end;
+      min-height: 380px;
+    }
+    .brief-back {
+      display: inline-flex;
+      margin-bottom: 32px;
+      color: rgba(255,255,255,.7);
+      font-size: .82rem;
+      font-weight: 800;
+      transition: color .2s ease, transform .2s ease;
+    }
+    .brief-back:hover { color: #fff; transform: translateX(-3px); }
+    .brief-cover__category {
+      margin: 0 0 10px;
+      color: #9eafe0;
+      font-size: .68rem;
+      font-weight: 900;
+      letter-spacing: .14em;
     }
     .brief-kicker {
-      margin-bottom: 16px;
-      letter-spacing: .16em;
-      font-size: .72rem;
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      margin-bottom: 21px;
+      letter-spacing: .12em;
+      font-size: .67rem;
       font-weight: 800;
-      color: #ffb48a;
+      color: #ffbd97;
       text-transform: uppercase;
     }
+    .brief-kicker span { width: 24px; height: 2px; background: var(--orange); }
+    .brief-kicker i { padding-left: 9px; border-left: 1px solid rgba(255,255,255,.25); color: rgba(255,255,255,.55); font-style: normal; }
     .brief-cover h1 {
-      margin: 0 0 16px;
-      max-width: 38rem;
-      font-size: clamp(1.55rem, 3.2vw, 2.15rem);
-      line-height: 1.28;
-      letter-spacing: -.04em;
+      margin: 0 0 18px;
+      max-width: 42rem;
+      font-size: clamp(2rem, 3.8vw, 3.25rem);
+      line-height: 1.18;
+      letter-spacing: -.065em;
+    }
+    .brief-cover h1 span {
+      display: block;
+      margin-top: 11px;
+      font-size: .56em;
+      line-height: 1.36;
+      font-weight: 700;
+      letter-spacing: -.045em;
+      color: #dbe5ff;
     }
     .brief-lead {
-      margin: 0 0 28px;
-      max-width: 40rem;
-      color: rgba(255,255,255,.78);
-      font-size: 1rem;
-      line-height: 1.75;
+      margin: 0;
+      max-width: 39rem;
+      color: rgba(231,238,255,.78);
+      font-size: .98rem;
+      line-height: 1.78;
     }
+    .brief-cover__snapshot {
+      display: grid;
+      gap: 0;
+      overflow: hidden;
+      margin-bottom: 2px;
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 18px;
+      background: rgba(9,16,35,.26);
+      box-shadow: inset 0 1px rgba(255,255,255,.08);
+      backdrop-filter: blur(12px);
+    }
+    .brief-snapshot__label {
+      padding: 15px 18px 12px;
+      border-bottom: 1px solid rgba(255,255,255,.13);
+      color: #ffb48a;
+      font-size: .65rem;
+      font-weight: 900;
+      letter-spacing: .14em;
+    }
+    .brief-snapshot__item {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      gap: 12px;
+      align-items: center;
+      padding: 15px 18px;
+      border-bottom: 1px solid rgba(255,255,255,.1);
+    }
+    .brief-snapshot__item strong {
+      color: #fff;
+      font-size: 1.5rem;
+      letter-spacing: -.06em;
+      line-height: 1;
+    }
+    .brief-snapshot__item strong span { font-size: .55em; color: #b8c8f2; letter-spacing: -.03em; }
+    .brief-snapshot__item p { margin: 0; color: rgba(255,255,255,.68); font-size: .72rem; font-weight: 700; line-height: 1.48; }
+    .brief-snapshot__source { padding: 11px 18px; color: rgba(255,255,255,.48); font-size: .67rem; }
     .brief-meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 22px 32px;
-      padding-top: 20px;
+      display: grid;
+      grid-template-columns: 1.2fr 1.7fr .7fr 1.5fr;
+      gap: 0;
+      margin-top: 32px;
+      padding-top: 18px;
       border-top: 1px solid rgba(255,255,255,.16);
-      font-size: .82rem;
+      font-size: .74rem;
       color: rgba(255,255,255,.62);
     }
-    .brief-meta b { display: block; margin-bottom: 3px; color: #fff; font-size: .9rem; }
+    .brief-meta > div { padding: 0 18px; border-left: 1px solid rgba(255,255,255,.14); }
+    .brief-meta > div:first-child { padding-left: 0; border-left: 0; }
+    .brief-meta b { display: block; margin-bottom: 4px; color: #fff; font-size: .7rem; letter-spacing: .04em; }
     .brief-section {
       margin-top: 18px;
       padding: 32px 34px;
@@ -585,10 +702,28 @@
       .brief-kpi-row, .brief-pillars { grid-template-columns: 1fr 1fr; }
       .brief-two { grid-template-columns: 1fr; }
       .brief-cover, .brief-section, .brief-conclusion, .brief-refs { padding-left: 22px; padding-right: 22px; }
+      .brief-cover__grid { grid-template-columns: 1fr; gap: 28px; min-height: auto; }
+      .brief-cover__snapshot { grid-template-columns: repeat(3, 1fr); }
+      .brief-snapshot__label, .brief-snapshot__source { display: none; }
+      .brief-snapshot__item { grid-template-columns: 1fr; gap: 7px; border-bottom: 0; border-left: 1px solid rgba(255,255,255,.1); }
+      .brief-snapshot__item:first-of-type { border-left: 0; }
+      .brief-meta { grid-template-columns: 1fr 1.5fr 1fr 1.5fr; }
     }
     @media (max-width: 640px) {
       .brief-kpi-row, .brief-pillars { grid-template-columns: 1fr; }
-      .brief-cover { padding: 32px 20px 28px; }
+      .brief-main { padding-top: 16px; }
+      .brief-wrap { width: min(100% - 28px, 1220px); margin-bottom: 44px; }
+      .brief-cover { padding: 22px 20px 20px; border-radius: 22px; }
+      .brief-back { margin-bottom: 25px; }
+      .brief-cover h1 { font-size: 1.9rem; line-height: 1.22; }
+      .brief-cover h1 span { margin-top: 9px; font-size: .6em; }
+      .brief-lead { font-size: .88rem; line-height: 1.75; }
+      .brief-cover__snapshot { grid-template-columns: 1fr; border-radius: 14px; }
+      .brief-snapshot__item { grid-template-columns: 96px 1fr; gap: 8px; padding: 13px 15px; border-top: 1px solid rgba(255,255,255,.1); border-left: 0; }
+      .brief-snapshot__item:first-of-type { border-top: 0; }
+      .brief-meta { grid-template-columns: 1fr 1fr; gap: 14px 0; margin-top: 23px; padding-top: 16px; }
+      .brief-meta > div { padding: 0 10px; }
+      .brief-meta > div:nth-child(odd) { padding-left: 0; border-left: 0; }
     }
 
     /* ── Korean typography: space-first line breaks (PC + mobile) ── */
